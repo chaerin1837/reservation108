@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>108호 예약 페이지</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .top{
+            background-color: lavender;
+            padding: 20px;
+            color: black
+        }
+
+        body {
+            font-family: 돋움, sans-serif; /* "돋움" 글꼴 사용 */
+            text-align: center;
+        }
+    
+        .room {
+            border: 5px solid lavender;
+            padding: 50px;
+            margin: 30px;
+            display: inline-block;
+            border-radius: 15px;
+        }
+    
+        button {
+            background-color: gray;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-family: 돋움, sans-serif; /* "돋움" 글꼴 사용 */
+        }
+    
+        button:hover {
+            background-color: purple;
+        }
+    
+        .hero {
+            background-color: lavender;
+        }
+        .reservation-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: purple; /* 버튼 배경색 설정 */
+            color: #fff; /* 텍스트 색상 설정 */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .reservation-button2 {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: purple; /* 버튼 배경색 설정 */
+            color: #fff; /* 텍스트 색상 설정 */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .reservation-button3 {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: purple; /* 버튼 배경색 설정 */
+            color: #fff; /* 텍스트 색상 설정 */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+           
+</head>
+
+<body>
+    <h1 class="top">108호 예약 페이지</h1>
+<hr>
+    <p>예약 시, 안내 사항을 꼭 숙지한 후 예약 바랍니다.
+        *카카오톡 공지*
+    </p>
+    <hr>
+
+    <div class="room" id="room1">
+        <h2>[ 1번방 ]</h2>
+        <p>1번방 예약 페이지입니다.</p>
+
+        <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1-U4LszbFi_m3BPgGa6jzE4mqqc_Qor7eq2VxMExdxRf2b48WC3cQBeNq4t_9jdOD3nlNU8sR1?gv=true" target="_blank" class="reservation-button">예약</a>
+</body>
+        
+    </div>
+    <div class="room" id="room2">
+        <h2>[ 2번방 ]</h2>
+        <p>2번방 예약 페이지입니다.</p>
+        <!-- Google Calendar Appointment Scheduling begin -->
+        
+        <a href="https://calendar.app.google/Z7i2Fx8VKvh736fn8" target="_blank" class="reservation-button2">예약</a>
+    </div>
+
+    <div class="room" id="room3">
+        <h2>[ 3번방 ]</h2>
+        <p>3번방 예약 페이지입니다.</p>
+        <!-- Google Calendar Appointment Scheduling begin -->
+        
+        <a href="https://calendar.app.google/xw6emfR72FT2pMEn9" target="_blank" class="reservation-button3">예약</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
